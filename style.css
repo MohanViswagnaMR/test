@@ -1,0 +1,15 @@
+body{text-align: center;}
+
+#Enter_D{
+    float: left;
+    width: 50%;
+    background-color: rgb(37, 93, 133);
+    color: white;
+}
+
+#Find_D{
+    float: right;
+    width: 50%;
+    background-color: rgb(59, 21, 116);
+    color: white;
+}
