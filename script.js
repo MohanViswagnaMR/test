@@ -1,30 +1,24 @@
 console.log("Mohan Viswagna MR");
 
-
-
 // Import the functions you need from the SDKs you need
-import { initializeApp } from "https://www.gstatic.com/firebasejs/9.19.1/firebase-app.js";
+import { initializeApp } from "firebase/app";
+import { getDatabase } from "firebase/database";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyADI8SrX1utWAv5Bbb0iWRw1ELO9uIWH4c",
-    authDomain: "test-fb164.firebaseapp.com",
-    databaseURL: "https://test-fb164-default-rtdb.firebaseio.com",
-    projectId: "test-fb164",
-    storageBucket: "test-fb164.appspot.com",
-    messagingSenderId: "755796591575",
-    appId: "1:755796591575:web:5dd627da0dfa73a7d14192"
+  apiKey: "AIzaSyC6oYGzHrDmQ_RNYCY0ycvTLqboT6GRHNs",
+  authDomain: "test-6d3e4.firebaseapp.com",
+  databaseURL: "https://test-6d3e4-default-rtdb.firebaseio.com",
+  projectId: "test-6d3e4",
+  storageBucket: "test-6d3e4.appspot.com",
+  messagingSenderId: "147282171713",
+  appId: "1:147282171713:web:f288a2a8c38af1d01bb3c0"
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-
-
-import{getDatabase, set, get, update, remove, ref, child} 
-from "https://www.gstatic.com/firebasejs/9.19.1/firebase-database.js"
-
 const db = getDatabase();
 
 //Enter
